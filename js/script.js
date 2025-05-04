@@ -12,7 +12,7 @@
 // eslint-disable-next-line no-unused-vars
 function calculate() {
   // input
-  const firstUserInput = parseFloat(document.getElementById("firstNumber").value)
+  let firstUserInput = parseFloat(document.getElementById("firstNumber").value)
   const secondUserInput = parseFloat(document.getElementById("secondNumber").value)
   let answer = 0
 
@@ -23,5 +23,5 @@ function calculate() {
   }
   // output
   document.getElementById("result").innerHTML =
-  'Your number is:' + answer + '.'
+  'Your number is: ' + answer
 }
